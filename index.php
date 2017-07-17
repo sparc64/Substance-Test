@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Document</title>
+	<title>Basic Participants Charts</title>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha256-rr9hHBQ43H7HSOmmNkxzQGazS/Khx+L8ZRHteEY1tQ4=" crossorigin="anonymous" />
 </head>
 <body>
-		<?= "Hello World!" ?>
+ 
+  <?php
+    $handle = fopen("data/Basic Participants.csv", "r");
+    
+    // Error handler required, so the code doesn't fail silently.
+    if ($handle !== FALSE) {
+      while (($data = fgetcsv($handle, ",")) !== FALSE) {
+        // Too complex but don't know how to make it more readable preserving same efficiency
+        $dataArray[ $data[0] ][ $data[1] ][ $data[2] ] = array( array_slice($data, 3) );
+      }
+      fclose($handle);
+    }
+  
+    echo '<pre>';
+    print_r($dataArray);
+    echo '</pre>';
+  
+  ?>
 
 	<!-- 	
 	Using CDNJS for speed and built-in Subresource Integrity (SRI)
