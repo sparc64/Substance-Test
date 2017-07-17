@@ -1,0 +1,100 @@
+Category,"Sub Category",Title,Description,Breakdown,Value,Percentage
+"Attendance and Delivery",Attendance,"Number of participants in contact during report period","Count of all participants attending in report period",,55,
+"Attendance and Delivery",Attendance,"Number of 'starter' participants","Count of participants in contact for first time in 12 week period  prior to the end date of report period",,1.82%,1.82%
+"Attendance and Delivery",Attendance,"Number of currently 'involved' participants","Count of participants in contact in 12 week period prior to end date of report period and in contact prior to that",,52.73%,52.73%
+"Attendance and Delivery",Attendance,"Number of 'not currently attending' participants","Count of participants NOT in contact in 12 week period prior to end date of report period BUT in contact prior to that",,45.45%,45.45%
+"Attendance and Delivery",Attendance,"Aggregate attendance at all sessions","Sum of all attendances at sessions in report period",,1106,
+"Attendance and Delivery",Attendance," Aggregate contact hours at all Sessions","Sum of all hours of contact with participants in report period",,2195:00,
+"Attendance and Delivery",Attendance," Average contact hours (per participant)","Aggregate contact hours at all sessions divided by number of participants",,39:54,
+"Attendance and Delivery",Delivery,"Number of session groups delivered in report period","Count of session groups with at least one session dated in the report period",,26,
+"Attendance and Delivery",Delivery,"Number of sessions delivered in report period","Count of sessions dated in the report period",,193,
+"Attendance and Delivery",Delivery,"Number of session hours delivered in report period","Sum of session durations for those sessions dated in the report period",,463:30,
+Demographics,"Demographic - Gender",Counts,"Count of number of participants attending in report period grouped by gender",F,17,30.91%
+Demographics,"Demographic - Gender",Counts,"Count of number of participants attending in report period grouped by gender",M,38,69.09%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",1,2,3.64%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",12,6,10.91%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",14,1,1.82%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",15,5,9.09%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",16,1,1.82%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",17,1,1.82%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",19,4,7.27%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",20,3,5.45%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",21,1,1.82%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",22,1,1.82%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",24,10,18.18%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",26,4,7.27%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",28,3,5.45%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",29,1,1.82%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",31,4,7.27%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",41,4,7.27%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age",88,1,1.82%
+Demographics,"Demographic - Age",Counts,"Count of number of participants attending in report period grouped by age","Not Specified",3,5.45%
+Demographics,"Demographic - Ethnicity",Counts,"Count of number of participants attending in report period grouped by ethnicity","Asian British",1,1.82%
+Demographics,"Demographic - Ethnicity",Counts,"Count of number of participants attending in report period grouped by ethnicity","Asian or Asian British",1,1.82%
+Demographics,"Demographic - Ethnicity",Counts,"Count of number of participants attending in report period grouped by ethnicity","Black or Black British",5,9.09%
+Demographics,"Demographic - Ethnicity",Counts,"Count of number of participants attending in report period grouped by ethnicity","Chinese or Other",3,5.45%
+Demographics,"Demographic - Ethnicity",Counts,"Count of number of participants attending in report period grouped by ethnicity",Mixed,8,14.55%
+Demographics,"Demographic - Ethnicity",Counts,"Count of number of participants attending in report period grouped by ethnicity","Preferred Not to Say",10,18.18%
+Demographics,"Demographic - Ethnicity",Counts,"Count of number of participants attending in report period grouped by ethnicity","White or White British",21,38.18%
+Demographics,"Demographic - Ethnicity",Counts,"Count of number of participants attending in report period grouped by ethnicity","Not Specified",6,10.91%
+Demographics,"Demographic - Religion",Counts,"Count of number of participants attending in report period grouped by religion",Buddhist,12,21.82%
+Demographics,"Demographic - Religion",Counts,"Count of number of participants attending in report period grouped by religion",Christianity,19,34.55%
+Demographics,"Demographic - Religion",Counts,"Count of number of participants attending in report period grouped by religion",Muslim,6,10.91%
+Demographics,"Demographic - Religion",Counts,"Count of number of participants attending in report period grouped by religion","No religion affiliation or belief",14,25.45%
+Demographics,"Demographic - Religion",Counts,"Count of number of participants attending in report period grouped by religion","Not Specified",4,7.27%
+Demographics,"Demographic - Other","Counts - Disability","Count of number of participants attending in report period grouped by locally defined categories",No,30,54.55%
+Demographics,"Demographic - Other","Counts - Disability","Count of number of participants attending in report period grouped by locally defined categories",Yes,8,14.55%
+Demographics,"Demographic - Other","Counts - Disability","Count of number of participants attending in report period grouped by locally defined categories","Not Specified",17,30.91%
+Demographics,"Demographic - Other","Counts - Education, training, employment status","Count of number of participants attending in report period grouped by locally defined categories","In college",1,1.82%
+Demographics,"Demographic - Other","Counts - Education, training, employment status","Count of number of participants attending in report period grouped by locally defined categories","In employment",4,7.27%
+Demographics,"Demographic - Other","Counts - Education, training, employment status","Count of number of participants attending in report period grouped by locally defined categories","In school",27,49.09%
+Demographics,"Demographic - Other","Counts - Education, training, employment status","Count of number of participants attending in report period grouped by locally defined categories",Unknown,6,10.91%
+Demographics,"Demographic - Other","Counts - Education, training, employment status","Count of number of participants attending in report period grouped by locally defined categories","Not Specified",17,30.91%
+Demographics,"Demographic - Other","Counts - Has this person been referred to you as part of the MOPAC funded sessions?","Count of number of participants attending in report period grouped by locally defined categories",No,14,25.45%
+Demographics,"Demographic - Other","Counts - Has this person been referred to you as part of the MOPAC funded sessions?","Count of number of participants attending in report period grouped by locally defined categories",Unknown,15,27.27%
+Demographics,"Demographic - Other","Counts - Has this person been referred to you as part of the MOPAC funded sessions?","Count of number of participants attending in report period grouped by locally defined categories",Yes,9,16.36%
+Demographics,"Demographic - Other","Counts - Has this person been referred to you as part of the MOPAC funded sessions?","Count of number of participants attending in report period grouped by locally defined categories","Not Specified",17,30.91%
+Demographics,"Demographic - Other","Counts - If yes, where have they been referred from?","Count of number of participants attending in report period grouped by locally defined categories","Gang Task Force Teams",2,3.64%
+Demographics,"Demographic - Other","Counts - If yes, where have they been referred from?","Count of number of participants attending in report period grouped by locally defined categories","Police Service",2,3.64%
+Demographics,"Demographic - Other","Counts - If yes, where have they been referred from?","Count of number of participants attending in report period grouped by locally defined categories","Probation Services",1,1.82%
+Demographics,"Demographic - Other","Counts - If yes, where have they been referred from?","Count of number of participants attending in report period grouped by locally defined categories","Youth Offending Service",2,3.64%
+Demographics,"Demographic - Other","Counts - If yes, where have they been referred from?","Count of number of participants attending in report period grouped by locally defined categories","Not Specified",48,87.27%
+Demographics,"Demographic - Other","Counts - Photo/Filming Consent","Count of number of participants attending in report period grouped by locally defined categories",No,18,32.73%
+Demographics,"Demographic - Other","Counts - Photo/Filming Consent","Count of number of participants attending in report period grouped by locally defined categories",Unknown,4,7.27%
+Demographics,"Demographic - Other","Counts - Photo/Filming Consent","Count of number of participants attending in report period grouped by locally defined categories",Yes,16,29.09%
+Demographics,"Demographic - Other","Counts - Photo/Filming Consent","Count of number of participants attending in report period grouped by locally defined categories","Not Specified",17,30.91%
+Demographics,"Demographic - Other","Counts - Referral Agency","Count of number of participants attending in report period grouped by locally defined categories",PCT,1,1.82%
+Demographics,"Demographic - Other","Counts - Referral Agency","Count of number of participants attending in report period grouped by locally defined categories","Self Referral",6,10.91%
+Demographics,"Demographic - Other","Counts - Referral Agency","Count of number of participants attending in report period grouped by locally defined categories","Not Specified",48,87.27%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","16-19 yrs",3,5.45%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","20-25 years",7,12.73%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","N/A - Unknown",4,7.27%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Year 1",9,16.36%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Year 2",6,10.91%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Year 3",1,1.82%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Year 4",2,3.64%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Year 5",2,3.64%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Year 7",1,1.82%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Year 8",5,9.09%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Year 9",2,3.64%
+Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Not Specified",13,23.64%
+Impact,"Engagement and Progression","Number of participants moving up four levels on any one session group during report period",,,0,
+Impact,"Engagement and Progression","Number of participants moving up three levels on any one session group during report period",,,0,
+Impact,"Engagement and Progression","Number of participants moving up two levels on any one session group during report period",,,0,
+Impact,"Engagement and Progression","Number of participants moving up one level on any one session group during report period",,,0,
+Impact,"Engagement and Progression","Number of participants maintaining levels on any one session group during report period",,,0,
+Impact,"Engagement and Progression","Number of participants moving down one level on any one session group during report period",,,0,
+Impact,"Engagement and Progression","Number of participants moving down two levels on any one session group during report period",,,0,
+Impact,"Engagement and Progression","Number of participants moving down three levels on any one session group during report period",,,0,
+Impact,"Engagement and Progression","Number of participants moving down four levels on any one session group during report period",,,0,
+Impact,Outcomes,Count,"Count of number of participants attending in report period who achieved the listed outcome","Barclays PL Works - Returned to Education",3,
+Impact,Outcomes,Count,"Count of number of participants attending in report period who achieved the listed outcome","PL Enterprise - Improved confidence and self-esteem",1,
+Impact,Outcomes,Count,"Count of number of participants attending in report period who achieved the listed outcome","PL Girls Football - made transition into affiliated football",1,
+Impact,Outcomes,Count,"Count of number of participants attending in report period who achieved the listed outcome","PL Girls Football - progressed into County FA (district/regional representational team)",1,
+Impact,Outcomes,Count,"Count of number of participants attending in report period who achieved the listed outcome","PL School Sport - Progressed to Academy",2,
+Impact,Outcomes,Count,"Count of number of participants attending in report period who achieved the listed outcome","Referred on to another project at the Community Scheme",16,
+Impact,Outcomes,Count,"Count of number of participants attending in report period who achieved the listed outcome","Volunteering on other Community Scheme projects",19,
+Impact,Qualifications,Count,"Count of number of participants attending in report period who achieved the listed qualification","FA Level 1",1,
+Impact,Qualifications,Count,"Count of number of participants attending in report period who achieved the listed qualification","FA Youth Award",1,
+Impact,Qualifications,Count,"Count of number of participants attending in report period who achieved the listed qualification","FA Youth Module 1",6,
+Impact,Qualifications,Count,"Count of number of participants attending in report period who achieved the listed qualification","First Aid",1,
