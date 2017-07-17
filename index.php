@@ -16,30 +16,6 @@
     // Error handler required, so the code doesn't fail silently.
     if ($handle !== FALSE) {
       while ( ($data = fgetcsv($handle, ",")) !== FALSE ) {
-        
-//         Data Structure:
-//           Array
-//           (
-//               [Category] => Array
-//                   (
-//                       [Sub Category] => Array
-//                           (
-//                               [Title] => Array
-//                                   (
-//                                       [Description] => Array
-//                                           (
-//                                               [0] => Array
-//                                                   (
-//                                                       [0] => Breakdown
-//                                                       [1] => Value
-//                                                       [2] => Percentage
-//                                                   )
-//                                           )
-//                                   )
-//                           )
-//                   )
-//           )
-        
         // Too complex but don't know how to make it more readable preserving same efficiency
         $dataArray[ $data[0] ][ $data[1] ][ $data[2] ][ $data[3] ][] = array_slice($data, 4) ;
       }
