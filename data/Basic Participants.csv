@@ -4,8 +4,8 @@ Category,"Sub Category",Title,Description,Breakdown,Value,Percentage
 "Attendance and Delivery",Attendance,"Number of currently 'involved' participants","Count of participants in contact in 12 week period prior to end date of report period and in contact prior to that",,29,52.73%
 "Attendance and Delivery",Attendance,"Number of 'not currently attending' participants","Count of participants NOT in contact in 12 week period prior to end date of report period BUT in contact prior to that",,25,45.45%
 "Attendance and Delivery",Attendance,"Aggregate attendance at all sessions","Sum of all attendances at sessions in report period",,1106,
-"Attendance and Delivery",Attendance," Aggregate contact hours at all Sessions","Sum of all hours of contact with participants in report period",,2195:00,
-"Attendance and Delivery",Attendance," Average contact hours (per participant)","Aggregate contact hours at all sessions divided by number of participants",,39:54,
+"Attendance and Delivery",Attendance,"Aggregate contact hours at all Sessions","Sum of all hours of contact with participants in report period",,2195:00,
+"Attendance and Delivery",Attendance,"Average contact hours (per participant)","Aggregate contact hours at all sessions divided by number of participants",,39:54,
 "Attendance and Delivery",Delivery,"Number of session groups delivered in report period","Count of session groups with at least one session dated in the report period",,26,
 "Attendance and Delivery",Delivery,"Number of sessions delivered in report period","Count of sessions dated in the report period",,193,
 "Attendance and Delivery",Delivery,"Number of session hours delivered in report period","Sum of session durations for those sessions dated in the report period",,463:30,
