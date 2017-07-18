@@ -3,14 +3,14 @@
 $(function () {
   let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Attendance"];
   
-  let originalTimeValue = attendanceData["Aggregate contact hours at all Sessions"][0].value;
+  let originalTimeValue = attendanceData["Average contact hours (per participant)"][0].value;
   let decimalTime = getDecimalTime(originalTimeValue);
-
-  Highcharts.chart('chart-attendance-hours', {
+  
+  Highcharts.chart('chart-attendance-hours-average', {
       chart: {
           type: 'solidgauge'
       },
-      title: { text: "Aggregate contact hours at all Sessions" },
+      title: { text: "Average contact hours (per participant)" },
       pane: {
           center: ['50%', '85%'],
           startAngle: -90,
@@ -28,7 +28,7 @@ $(function () {
       },
       yAxis: {
           min: 0,
-          max: 3000, // Need additional data to set this value
+          max: Math.ceil(decimalTime),
           lineWidth: 0,
           minorTickInterval: null,
           tickAmount: 2,

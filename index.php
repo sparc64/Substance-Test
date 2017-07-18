@@ -71,9 +71,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.12/highcharts-more.js" integrity="sha256-Oz3F4WKDRb9iDPICXN6gLHGiby0csdoVtvnpcMfi+7g=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.12/modules/solid-gauge.js" integrity="sha256-wFbvC5snkVoz0lsZOKdk3K3/sM6RyoY1MB/TfoeNEOM=" crossorigin="anonymous"></script>	
 
+	<script src="js/charts/charts.js"></script>
 	<script src="js/charts/attendance-participants.js"></script>
 	<script src="js/charts/attendance-percentage.js"></script>
 	<script src="js/charts/attendance-sessions.js"></script>
 	<script src="js/charts/attendance-hours.js"></script>
+	<script src="js/charts/attendance-hours-average.js"></script>
+
 </body>
 </html>
