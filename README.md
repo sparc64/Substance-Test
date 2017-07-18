@@ -11,14 +11,12 @@ Array
                 (
                     [Title] => Array
                         (
-                            [Description] => Array
+                            [0] => Array
                                 (
-                                    [0] => Array
-                                        (
-                                            [0] => Breakdown
-                                            [1] => Value
-                                            [2] => Percentage
-                                        )
+                                    [0] => Description
+                                    [1] => Breakdown
+                                    [2] => Value
+                                    [3] => Percentage
                                 )
                         )
                 )

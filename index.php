@@ -26,15 +26,12 @@
     
 		<div class="row">
 			<div class="col">
-        
-        <table class="table table-bordered">
-          <thead>
-            <tr><th>Attendance</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Table row</td></tr>
-          </tbody>
-        </table>
+        <h3>Attendance</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div id="chart-attendance-participants"></div>
 			</div>
 		</div>
     
@@ -54,5 +51,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha256-gL1ibrbVcRIHKlCO5OXOPC/lZz/gpdApgQAzskqqXp8=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha256-+kIbbrvS+0dNOjhmQJzmwe/RILR/8lb/+4+PUNVW09k=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.12/highcharts.js" integrity="sha256-zXVQoymYrmnVtdQCloLcwiI2rnLzkVk4C3UPUoFPC7M=" crossorigin="anonymous"></script>
+	
+	<script src="js/charts/attendance-participants.js"></script>
 </body>
 </html>
