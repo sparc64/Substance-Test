@@ -19,11 +19,11 @@
 			</div>
 		</div>
 		
-    <div class="row">
-      <div class="col">
-        <h2>Attendance and Delivery</h2>
-      </div>
-    </div>
+		<div class="row">
+			<div class="col">
+				<h2>Attendance and Delivery</h2>
+			</div>
+		</div>
     
 		<div class="row">
 			<div class="col">
@@ -41,9 +41,6 @@
 		</div>
 		
   	<div class="row">
-		</div>
-		
-  	<div class="row">
 			<div class="col">
 				<div id="chart-attendance-sessions"></div>
 			</div>
@@ -56,8 +53,11 @@
 		</div>
 		
 		<div class="row">
-			<div class="col"><h3>Delivery</h3></div>
+			<div class="col">
+				<h3>Delivery</h3>
+			</div>
 		</div>
+		
   	<div class="row">
 			<div class="col">
 				<div id="chart-delivery-groups"></div>
@@ -69,7 +69,52 @@
 				<div id="chart-delivery-hours"></div>
 			</div>
 		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h2>Impact</h2>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h3>Engagement and Progression</h3>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-impact-engagement"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h3>Outcomes</h3>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<div id="chart-impact-outcome"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h3>Qualifications</h3>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-impact-qualifications"></div>
+			</div>
+		</div>
+		
 	</div>
+	
+	
  
   <?php include "php/load-data.php"; ?>
   <?php include "php/inject-data.php"; ?>
@@ -101,7 +146,7 @@
 	<script src="js/charts/delivery-sessions.js"></script>
 	<script src="js/charts/delivery-hours.js"></script>
 
-
+	<script src="js/charts/impact-engagement.js"></script>
 
 </body>
 </html>
