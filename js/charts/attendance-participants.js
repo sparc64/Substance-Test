@@ -3,7 +3,7 @@
 let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Attendance"];
 
 $(function () { 
-    let myChart = Highcharts.chart('chart-attendance-participants', {
+    Highcharts.chart('chart-attendance-participants', {
         chart: {
             type: 'bar'
         },
