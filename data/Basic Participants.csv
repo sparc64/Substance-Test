@@ -78,15 +78,15 @@ Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of 
 Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Year 8",5,9.09%
 Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Year 9",2,3.64%
 Demographics,"Demographic - Other","Counts - Year Group/Age Category","Count of number of participants attending in report period grouped by locally defined categories","Not Specified",13,23.64%
-Impact,"Engagement and Progression","Number of participants moving up four levels on any one session group during report period",,,0,
-Impact,"Engagement and Progression","Number of participants moving up three levels on any one session group during report period",,,0,
-Impact,"Engagement and Progression","Number of participants moving up two levels on any one session group during report period",,,0,
-Impact,"Engagement and Progression","Number of participants moving up one level on any one session group during report period",,,0,
-Impact,"Engagement and Progression","Number of participants maintaining levels on any one session group during report period",,,0,
-Impact,"Engagement and Progression","Number of participants moving down one level on any one session group during report period",,,0,
-Impact,"Engagement and Progression","Number of participants moving down two levels on any one session group during report period",,,0,
+Impact,"Engagement and Progression","Number of participants moving up four levels on any one session group during report period",,,1,
+Impact,"Engagement and Progression","Number of participants moving up three levels on any one session group during report period",,,3,
+Impact,"Engagement and Progression","Number of participants moving up two levels on any one session group during report period",,,3,
+Impact,"Engagement and Progression","Number of participants moving up one level on any one session group during report period",,,5,
+Impact,"Engagement and Progression","Number of participants maintaining levels on any one session group during report period",,,10,
+Impact,"Engagement and Progression","Number of participants moving down one level on any one session group during report period",,,3,
+Impact,"Engagement and Progression","Number of participants moving down two levels on any one session group during report period",,,3,
 Impact,"Engagement and Progression","Number of participants moving down three levels on any one session group during report period",,,0,
-Impact,"Engagement and Progression","Number of participants moving down four levels on any one session group during report period",,,0,
+Impact,"Engagement and Progression","Number of participants moving down four levels on any one session group during report period",,,1,
 Impact,Outcomes,Count,"Count of number of participants attending in report period who achieved the listed outcome","Barclays PL Works - Returned to Education",3,
 Impact,Outcomes,Count,"Count of number of participants attending in report period who achieved the listed outcome","PL Enterprise - Improved confidence and self-esteem",1,
 Impact,Outcomes,Count,"Count of number of participants attending in report period who achieved the listed outcome","PL Girls Football - made transition into affiliated football",1,
