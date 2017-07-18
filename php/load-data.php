@@ -12,7 +12,7 @@
     fclose($handle);
   }
 
-  echo '<pre>';
-  print_r($dataArray);
-  echo '</pre>';
+//   echo '<pre>';
+//   print_r($dataArray);
+//   echo '</pre>';
 ?>

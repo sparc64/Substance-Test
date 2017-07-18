@@ -1,6 +1,8 @@
 "use strict"
 
 $(function () {
+  let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Attendance"];
+  
   Highcharts.chart('chart-attendance-percentage', {
       chart: {
           type: 'pie'

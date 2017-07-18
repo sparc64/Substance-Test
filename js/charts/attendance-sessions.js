@@ -1,7 +1,9 @@
 "use strict"
 
 $(function () {
-   Highcharts.chart('chart-attendance-sessions', {
+  let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Attendance"];
+
+  Highcharts.chart('chart-attendance-sessions', {
       chart: {
           type: 'solidgauge'
       },
@@ -10,6 +12,7 @@ $(function () {
           center: ['50%', '85%'],
           startAngle: -90,
           endAngle: 90,
+          size: '140%',
           background: {
               backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || '#EEE',
               innerRadius: '60%',

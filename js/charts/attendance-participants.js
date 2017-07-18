@@ -1,8 +1,8 @@
 "use strict"
 
-let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Attendance"];
+$(function () {
+    let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Attendance"];
 
-$(function () { 
     Highcharts.chart('chart-attendance-participants', {
         chart: {
             type: 'bar'

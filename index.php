@@ -7,6 +7,7 @@
 	<title>Basic Participants Charts</title>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha256-rr9hHBQ43H7HSOmmNkxzQGazS/Khx+L8ZRHteEY1tQ4=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/charts.css">
 </head>
 <body>
   
@@ -33,15 +34,21 @@
 			<div class="col">
 				<div id="chart-attendance-participants"></div>
 			</div>
-		</div>
-  	<div class="row">
 			<div class="col">
 				<div id="chart-attendance-percentage"></div>
 			</div>
 		</div>
   	<div class="row">
+		</div>
+  	<div class="row">
 			<div class="col">
 				<div id="chart-attendance-sessions"></div>
+			</div>
+			<div class="col">
+				<div id="chart-attendance-hours"></div>
+			</div>
+			<div class="col">
+				<div id="chart-attendance-hours-average"></div>
 			</div>
 		</div>
 	</div>
@@ -67,6 +74,6 @@
 	<script src="js/charts/attendance-participants.js"></script>
 	<script src="js/charts/attendance-percentage.js"></script>
 	<script src="js/charts/attendance-sessions.js"></script>
-
+	<script src="js/charts/attendance-hours.js"></script>
 </body>
 </html>
