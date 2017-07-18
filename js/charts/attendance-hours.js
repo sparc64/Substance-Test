@@ -2,12 +2,20 @@
 
 $(function () {
   let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Attendance"];
+  
+  let originalTimeValue = attendanceData["Aggregate contact hours at all Sessions"][0].value;
+  
+  let hours = parseInt(originalTimeValue);
+  let minutes = parseInt( originalTimeValue.slice(-2) );
+  
+  let decimalMinutes = ( minutes * 5 ) / 3;
+  let decimalTime = hours + decimalMinutes;
 
   Highcharts.chart('chart-attendance-hours', {
       chart: {
           type: 'solidgauge'
       },
-      title: { text: "Aggregate attendance at all sessions" },
+      title: { text: "Aggregate contact hours at all Sessions" },
       pane: {
           center: ['50%', '85%'],
           startAngle: -90,
@@ -25,7 +33,7 @@ $(function () {
       },
       yAxis: {
           min: 0,
-          max: 1200, // Need additional data to set this value
+          max: 3000, // Need additional data to set this value
           lineWidth: 0,
           minorTickInterval: null,
           tickAmount: 2,
@@ -44,11 +52,11 @@ $(function () {
       },
       series: [{
           name: 'Speed',
-          data: [+attendanceData["Aggregate attendance at all sessions"][0].value],
+          data: [decimalTime],
           dataLabels: {
               format: '<div style="text-align:center"><span style="font-size:25px;color:' +
-                  ((Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black') + '">{y}</span><br/>' +
-                     '<span style="font-size:12px;color:silver">Sessions</span></div>'
+                  ((Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black') + '">' + originalTimeValue + '</span><br/>' +
+                     '<span style="font-size:12px;color:silver">Hours</span></div>'
           },
       }]
   });
