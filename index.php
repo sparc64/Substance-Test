@@ -34,7 +34,12 @@
 				<div id="chart-attendance-participants"></div>
 			</div>
 		</div>
-    
+  	<div class="row">
+			<div class="col">
+				<div id="chart-attendance-percentage"></div>
+			</div>
+		</div>
+		
 	</div>
  
   <?php include "php/load-data.php"; ?>
@@ -53,5 +58,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.12/highcharts.js" integrity="sha256-zXVQoymYrmnVtdQCloLcwiI2rnLzkVk4C3UPUoFPC7M=" crossorigin="anonymous"></script>
 	
 	<script src="js/charts/attendance-participants.js"></script>
+	<script src="js/charts/attendance-percentage.js"></script>
 </body>
 </html>

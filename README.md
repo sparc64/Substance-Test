@@ -13,10 +13,10 @@ Array
                         (
                             [0] => Array
                                 (
-                                    [0] => Description
-                                    [1] => Breakdown
-                                    [2] => Value
-                                    [3] => Percentage
+                                    [description] => Description
+                                    [breakdown] => Breakdown
+                                    [value] => Value
+                                    [percentage] => Percentage
                                 )
                         )
                 )
