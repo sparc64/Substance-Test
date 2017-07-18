@@ -1,8 +1,8 @@
 Category,"Sub Category",Title,Description,Breakdown,Value,Percentage
 "Attendance and Delivery",Attendance,"Number of participants in contact during report period","Count of all participants attending in report period",,55,
-"Attendance and Delivery",Attendance,"Number of 'starter' participants","Count of participants in contact for first time in 12 week period  prior to the end date of report period",,1.82%,1.82%
-"Attendance and Delivery",Attendance,"Number of currently 'involved' participants","Count of participants in contact in 12 week period prior to end date of report period and in contact prior to that",,52.73%,52.73%
-"Attendance and Delivery",Attendance,"Number of 'not currently attending' participants","Count of participants NOT in contact in 12 week period prior to end date of report period BUT in contact prior to that",,45.45%,45.45%
+"Attendance and Delivery",Attendance,"Number of 'starter' participants","Count of participants in contact for first time in 12 week period  prior to the end date of report period",,1,1.82%
+"Attendance and Delivery",Attendance,"Number of currently 'involved' participants","Count of participants in contact in 12 week period prior to end date of report period and in contact prior to that",,29,52.73%
+"Attendance and Delivery",Attendance,"Number of 'not currently attending' participants","Count of participants NOT in contact in 12 week period prior to end date of report period BUT in contact prior to that",,25,45.45%
 "Attendance and Delivery",Attendance,"Aggregate attendance at all sessions","Sum of all attendances at sessions in report period",,1106,
 "Attendance and Delivery",Attendance," Aggregate contact hours at all Sessions","Sum of all hours of contact with participants in report period",,2195:00,
 "Attendance and Delivery",Attendance," Average contact hours (per participant)","Aggregate contact hours at all sessions divided by number of participants",,39:54,
