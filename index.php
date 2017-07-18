@@ -40,11 +40,8 @@
     
 	</div>
  
-  <?php
-		include "php/load-data.php";
-  ?>
-  
-  
+  <?php include "php/load-data.php"; ?>
+  <?php include "php/inject-data.php"; ?>
 
 	<!-- 	
 	Using CDNJS for speed and built-in Subresource Integrity (SRI)
