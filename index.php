@@ -42,7 +42,9 @@
  
   <?php include "php/load-data.php"; ?>
   <?php include "php/inject-data.php"; ?>
-
+	
+	<script src="js/parse-data.js"></script>
+	
 	<!-- 	
 	Using CDNJS for speed and built-in Subresource Integrity (SRI)
 	https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
