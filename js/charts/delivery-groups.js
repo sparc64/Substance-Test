@@ -1,16 +1,14 @@
 "use strict"
 
 $(function () {
-  let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Attendance"];
+  let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Delivery"];
+  let numberOfGroups = +attendanceData["Number of session groups delivered in report period"][0].value;
   
-  let originalTimeValue = attendanceData["Average contact hours (per participant)"][0].value;
-  let decimalTime = getDecimalTime(originalTimeValue);
-  
-  Highcharts.chart('chart-attendance-hours-average', {
+  Highcharts.chart('chart-delivery-groups', {
       chart: {
           type: 'solidgauge'
       },
-      title: { text: "Average contact hours (per participant)" },
+      title: { text: "Number of session groups delivered in report period" },
       pane: {
           center: ['50%', '85%'],
           startAngle: -90,
@@ -28,7 +26,7 @@ $(function () {
       },
       yAxis: {
           min: 0,
-          max: Math.ceil(decimalTime),
+          max: numberOfGroups,
           lineWidth: 0,
           minorTickInterval: null,
           tickAmount: 2,
@@ -46,11 +44,11 @@ $(function () {
           }
       },
       series: [{
-          data: [decimalTime],
+          data: [numberOfGroups],
           dataLabels: {
               format: '<div style="text-align:center"><span style="font-size:25px;color:' +
-                  ((Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black') + '">' + originalTimeValue + '</span><br/>' +
-                     '<span style="font-size:12px;color:silver">Hours</span></div>'
+                  ((Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black') + '">{y}</span><br/>' +
+                     '<span style="font-size:12px;color:silver">Groups</span></div>'
           },
       }]
   });

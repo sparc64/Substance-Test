@@ -30,6 +30,7 @@
         <h3>Attendance</h3>
 			</div>
 		</div>
+		
 		<div class="row">
 			<div class="col">
 				<div id="chart-attendance-participants"></div>
@@ -38,8 +39,10 @@
 				<div id="chart-attendance-percentage"></div>
 			</div>
 		</div>
+		
   	<div class="row">
 		</div>
+		
   	<div class="row">
 			<div class="col">
 				<div id="chart-attendance-sessions"></div>
@@ -49,6 +52,21 @@
 			</div>
 			<div class="col">
 				<div id="chart-attendance-hours-average"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col"><h3>Delivery</h3></div>
+		</div>
+  	<div class="row">
+			<div class="col">
+				<div id="chart-delivery-groups"></div>
+			</div>
+			<div class="col">
+				<div id="chart-delivery-sessions"></div>
+			</div>
+			<div class="col">
+				<div id="chart-delivery-hours"></div>
 			</div>
 		</div>
 	</div>
@@ -72,11 +90,18 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.12/modules/solid-gauge.js" integrity="sha256-wFbvC5snkVoz0lsZOKdk3K3/sM6RyoY1MB/TfoeNEOM=" crossorigin="anonymous"></script>	
 
 	<script src="js/charts/charts.js"></script>
+	
 	<script src="js/charts/attendance-participants.js"></script>
 	<script src="js/charts/attendance-percentage.js"></script>
 	<script src="js/charts/attendance-sessions.js"></script>
 	<script src="js/charts/attendance-hours.js"></script>
 	<script src="js/charts/attendance-hours-average.js"></script>
+	
+	<script src="js/charts/delivery-groups.js"></script>
+	<script src="js/charts/delivery-sessions.js"></script>
+	<script src="js/charts/delivery-hours.js"></script>
+
+
 
 </body>
 </html>

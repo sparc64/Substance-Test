@@ -43,7 +43,6 @@ $(function () {
           }
       },
       series: [{
-          name: 'Speed',
           data: [+attendanceData["Aggregate attendance at all sessions"][0].value],
           dataLabels: {
               format: '<div style="text-align:center"><span style="font-size:25px;color:' +

@@ -1,5 +1,8 @@
 #chart-attendance-sessions,
 #chart-attendance-hours,
-#chart-attendance-hours-average {
+#chart-attendance-hours-average,
+#chart-delivery-groups,
+#chart-delivery-sessions,
+#chart-delivery-hours {
   height: 300px;
 }

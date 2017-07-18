@@ -1,16 +1,15 @@
 "use strict"
 
 $(function () {
-  let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Attendance"];
-  
-  let originalTimeValue = attendanceData["Average contact hours (per participant)"][0].value;
+  let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Delivery"];
+  let originalTimeValue = attendanceData["Number of session hours delivered in report period"][0].value;
   let decimalTime = getDecimalTime(originalTimeValue);
   
-  Highcharts.chart('chart-attendance-hours-average', {
+  Highcharts.chart('chart-delivery-hours', {
       chart: {
           type: 'solidgauge'
       },
-      title: { text: "Average contact hours (per participant)" },
+      title: { text: "Number of session hours delivered in report period" },
       pane: {
           center: ['50%', '85%'],
           startAngle: -90,
@@ -28,7 +27,7 @@ $(function () {
       },
       yAxis: {
           min: 0,
-          max: Math.ceil(decimalTime),
+          max: decimalTime,
           lineWidth: 0,
           minorTickInterval: null,
           tickAmount: 2,
@@ -49,7 +48,7 @@ $(function () {
           data: [decimalTime],
           dataLabels: {
               format: '<div style="text-align:center"><span style="font-size:25px;color:' +
-                  ((Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black') + '">' + originalTimeValue + '</span><br/>' +
+                  ((Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black') + '">{y}</span><br/>' +
                      '<span style="font-size:12px;color:silver">Hours</span></div>'
           },
       }]
