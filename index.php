@@ -69,6 +69,27 @@
 				<div id="chart-delivery-hours"></div>
 			</div>
 		</div>
+
+		<div class="row">
+			<div class="col">
+				<h2>Demographics</h2>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h3>Demographic - Gender</h3>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-demographics-gender"></div>
+			</div>
+			<div class="col">
+				<div id="chart-demographics-gender-percentage"></div>
+			</div>
+		</div>
 		
 		<div class="row">
 			<div class="col">
@@ -148,6 +169,11 @@
 
 	<script src="js/charts/impact-engagement.js"></script>
 	<script src="js/charts/impact-outcomes.js"></script>
+	<script src="js/charts/impact-qualifications.js"></script>
+	
+	<script src="js/charts/demographics-gender.js"></script>
+
+
 
 
 </body>
