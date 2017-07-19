@@ -93,6 +93,21 @@
 		
 		<div class="row">
 			<div class="col">
+				<h3>Demographic - Age</h3>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-demographics-age"></div>
+			</div>
+			<div class="col">
+				<div id="chart-demographics-age-percentage"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
 				<h2>Impact</h2>
 			</div>
 		</div>
@@ -172,6 +187,8 @@
 	<script src="js/charts/impact-qualifications.js"></script>
 	
 	<script src="js/charts/demographics-gender.js"></script>
+	<script src="js/charts/demographics-age.js"></script>
+
 
 
 

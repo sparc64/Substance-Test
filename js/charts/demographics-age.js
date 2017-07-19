@@ -1,7 +1,7 @@
 "use strict"
 
 $(function() {
-  let demographicsData = basicParticipantsJson.Demographics["Demographic - Gender"].Counts;
+  let demographicsData = basicParticipantsJson.Demographics["Demographic - Age"].Counts;
   let description = demographicsData[0].description;
   
   //   ===================== COLUMN CHART =====================
@@ -14,7 +14,7 @@ $(function() {
     seriesData[0].data.push( [obj.breakdown, +obj.value] );
   }
 
-  Highcharts.chart('chart-demographics-gender', {
+  Highcharts.chart('chart-demographics-age', {
     chart: {
       type: 'column'
     },
@@ -47,7 +47,7 @@ $(function() {
     pieSeriesData[0].data.push( { "name": demographicsData[key].breakdown, "y": parseInt(demographicsData[key].percentage) } );
   }
     
-  Highcharts.chart('chart-demographics-gender-percentage', {
+  Highcharts.chart('chart-demographics-age-percentage', {
       chart: {
           type: 'pie'
       },
@@ -59,11 +59,12 @@ $(function() {
               allowPointSelect: true,
               cursor: 'pointer',
               dataLabels: {
-                  enabled: false
+                  enabled: true
               },
-              showInLegend: true
+              showInLegend: false
           }
       },
+
       series: pieSeriesData
   });
   
