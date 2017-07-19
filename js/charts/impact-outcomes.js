@@ -2,14 +2,14 @@
 
 $(function() {
   let outcomesData = basicParticipantsJson.Impact.Outcomes.Count;
-  
+
   let seriesData = [{
     "name": "value",
     "data": []
   }];
   
-  for (let key in outcomesData) {
-    seriesData[0].data.push( [outcomesData[key].breakdown, +outcomesData[key].value] );
+  for (let obj of outcomesData) {
+    seriesData[0].data.push( [obj.breakdown, +obj.value] );
   }
 
   Highcharts.chart('chart-impact-outcomes', {

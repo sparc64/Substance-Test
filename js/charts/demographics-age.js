@@ -42,9 +42,9 @@ $(function() {
     "name": "value",
     "data": []
   }];
-  
-  for (let key in demographicsData) {
-    pieSeriesData[0].data.push( { "name": demographicsData[key].breakdown, "y": parseInt(demographicsData[key].percentage) } );
+    
+  for (let obj of demographicsData) {
+    pieSeriesData[0].data.push( { "name": obj.breakdown, "y": parseInt(obj.percentage) } );
   }
     
   Highcharts.chart('chart-demographics-age-percentage', {

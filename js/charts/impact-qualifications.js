@@ -8,8 +8,8 @@ $(function() {
     "data": []
   }];
   
-  for (let key in qualificationsData) {
-    seriesData[0].data.push( [qualificationsData[key].breakdown, +qualificationsData[key].value] );
+  for (let obj of qualificationsData) {
+    seriesData[0].data.push( [obj.breakdown, +obj.value] );
   }
 
   Highcharts.chart('chart-impact-qualifications', {

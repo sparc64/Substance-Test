@@ -93,6 +93,36 @@
 		
 		<div class="row">
 			<div class="col">
+				<h3>Demographic - Religion</h3>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-demographics-religion"></div>
+			</div>
+			<div class="col">
+				<div id="chart-demographics-religion-percentage"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h3>Demographic - Ethnicity</h3>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-demographics-ethnicity"></div>
+			</div>
+			<div class="col">
+				<div id="chart-demographics-ethnicity-percentage"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
 				<h3>Demographic - Age</h3>
 			</div>
 		</div>
@@ -103,6 +133,72 @@
 			</div>
 			<div class="col">
 				<div id="chart-demographics-age-percentage"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h3>Demographic - Other</h3>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<h4>Disability</h4>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-demographics-disability"></div>
+			</div>
+			<div class="col">
+				<div id="chart-demographics-disability-percentage"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h4>Education, training, employment status</h4>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-demographics-education"></div>
+			</div>
+			<div class="col">
+				<div id="chart-demographics-education-percentage"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h4>Has this person been referred to you as part of the MOPAC funded sessions?</h4>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-demographics-mopac"></div>
+			</div>
+			<div class="col">
+				<div id="chart-demographics-mopac-percentage"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h4>If yes, where have they been referred from?</h4>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-demographics-mopac-from"></div>
+			</div>
+			<div class="col">
+				<div id="chart-demographics-mopac-from-percentage"></div>
 			</div>
 		</div>
 		
@@ -187,7 +283,15 @@
 	<script src="js/charts/impact-qualifications.js"></script>
 	
 	<script src="js/charts/demographics-gender.js"></script>
+	<script src="js/charts/demographics-religion.js"></script>
+	<script src="js/charts/demographics-ethnicity.js"></script>
 	<script src="js/charts/demographics-age.js"></script>
+	<script src="js/charts/demographics-disability.js"></script>
+	<script src="js/charts/demographics-education.js"></script>
+	<script src="js/charts/demographics-mopac.js"></script>
+	<script src="js/charts/demographics-mopac-from.js"></script>
+
+
 
 
 

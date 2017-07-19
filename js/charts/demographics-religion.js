@@ -1,7 +1,7 @@
 "use strict"
 
 $(function() {
-  let demographicsData = basicParticipantsJson.Demographics["Demographic - Gender"].Counts;
+  let demographicsData = basicParticipantsJson.Demographics["Demographic - Religion"].Counts;
   let description = demographicsData[0].description;
   
   //   ===================== COLUMN CHART =====================
@@ -14,7 +14,7 @@ $(function() {
     seriesData[0].data.push( [obj.breakdown, +obj.value] );
   }
 
-  Highcharts.chart('chart-demographics-gender', {
+  Highcharts.chart('chart-demographics-religion', {
     chart: {
       type: 'column'
     },
@@ -47,7 +47,7 @@ $(function() {
     pieSeriesData[0].data.push( { "name": obj.breakdown, "y": parseInt(obj.percentage) } );
   }
     
-  Highcharts.chart('chart-demographics-gender-percentage', {
+  Highcharts.chart('chart-demographics-religion-percentage', {
       chart: {
           type: 'pie'
       },
