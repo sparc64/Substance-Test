@@ -1,7 +1,7 @@
 "use strict"
 
 $(function() {
-  let engagementData = basicParticipantsJson["Impact"]["Engagement and Progression"];
+  let engagementData = basicParticipantsJson.Impact["Engagement and Progression"];
 
   let seriesData = [{
     "name": "value",

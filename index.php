@@ -96,7 +96,7 @@
 		
 		<div class="row">
 			<div class="col">
-				<div id="chart-impact-outcome"></div>
+				<div id="chart-impact-outcomes"></div>
 			</div>
 		</div>
 		
@@ -147,6 +147,8 @@
 	<script src="js/charts/delivery-hours.js"></script>
 
 	<script src="js/charts/impact-engagement.js"></script>
+	<script src="js/charts/impact-outcomes.js"></script>
+
 
 </body>
 </html>
