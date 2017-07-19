@@ -35,15 +35,12 @@ $(function () {
             }
         },
         series: [{
-            type: 'bar',
             name: "Number of 'starter' participants",
             data: [+attendanceData["Number of 'starter' participants"][0].value]
         }, {
-            type: 'bar',
             name: "Number of currently 'involved' participants",
             data: [+attendanceData["Number of currently 'involved' participants"][0].value]
         },{
-            type: 'bar',
             name: "Number of 'not currently attending' participants",
             data: [+attendanceData["Number of 'not currently attending' participants"][0].value]
         }]

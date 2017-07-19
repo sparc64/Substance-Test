@@ -3,22 +3,9 @@
 $(function () {
   let attendanceData = basicParticipantsJson["Attendance and Delivery"]["Attendance"];
   
-  Highcharts.chart('chart-attendance-percentage', {
-      chart: {
-          type: 'pie'
-      },
+  Highcharts.chart('chart-attendance-percentage', Highcharts.merge(pieChartSettings, {
       title: {
           text: 'Percentage of participants in contact during report period'
-      },
-      plotOptions: {
-          pie: {
-              allowPointSelect: true,
-              cursor: 'pointer',
-              dataLabels: {
-                  enabled: false
-              },
-              showInLegend: true
-          }
       },
       series: [{
           name: 'Participants',
@@ -34,5 +21,5 @@ $(function () {
               y: parseFloat(attendanceData["Number of 'not currently attending' participants"][0].percentage),
           }],
       }]
-  });
+  }));
 });

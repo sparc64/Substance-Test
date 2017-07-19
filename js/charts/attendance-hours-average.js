@@ -6,44 +6,10 @@ $(function () {
   let originalTimeValue = attendanceData["Average contact hours (per participant)"][0].value;
   let decimalTime = getDecimalTime(originalTimeValue);
   
-  Highcharts.chart('chart-attendance-hours-average', {
-      chart: {
-          type: 'solidgauge'
-      },
+  Highcharts.chart('chart-attendance-hours-average', Highcharts.merge( solidgaugeChartSettings, {
       title: { text: "Average contact hours (per participant)" },
-      pane: {
-          center: ['50%', '85%'],
-          startAngle: -90,
-          endAngle: 90,
-          size: '140%',
-          background: {
-              backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || '#EEE',
-              innerRadius: '60%',
-              outerRadius: '100%',
-              shape: 'arc'
-          }
-      },
-      tooltip: {
-          enabled: false
-      },
       yAxis: {
-          min: 0,
           max: Math.ceil(decimalTime),
-          lineWidth: 0,
-          minorTickInterval: null,
-          tickAmount: 2,
-          labels: {
-              y: 16
-          }
-      },
-      plotOptions: {
-          solidgauge: {
-              dataLabels: {
-                  y: -44,
-                  borderWidth: 0,
-                  useHTML: true
-              }
-          }
       },
       series: [{
           data: [decimalTime],
@@ -53,5 +19,5 @@ $(function () {
                      '<span style="font-size:12px;color:silver">Hours</span></div>'
           },
       }]
-  });
+  }));
 });

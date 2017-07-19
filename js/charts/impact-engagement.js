@@ -12,24 +12,5 @@ $(function() {
     seriesData[0].data.push([key, +engagementData[key][0].value]);
   }
 
-  Highcharts.chart('chart-impact-engagement', {
-    chart: {
-      type: 'bar'
-    },
-    title: null,
-    xAxis: {
-      type: 'category'
-    },
-    legend: {
-      enabled: false
-    },
-    plotOptions: {
-      bar: {
-        dataLabels: {
-          enabled: true
-        }
-      }
-    },
-    series: seriesData
-  });
+  Highcharts.chart('chart-impact-engagement', Highcharts.merge( barChartSettings, { series: seriesData } ));
 });

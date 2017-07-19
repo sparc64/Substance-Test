@@ -14,28 +14,12 @@ $(function() {
     seriesData[0].data.push( [obj.breakdown, +obj.value] );
   }
 
-  Highcharts.chart('chart-demographics-disability', {
-    chart: {
-      type: 'column'
-    },
+  Highcharts.chart('chart-demographics-disability', Highcharts.merge(columnChartSettings, {
     title: {
       text: description
     },
-    xAxis: {
-      type: 'category'
-    },
-    legend: {
-      enabled: false
-    },
-    plotOptions: {
-      bar: {
-        dataLabels: {
-          enabled: true
-        }
-      }
-    },
     series: seriesData
-  });
+  }));
     
   //   ===================== PIE CHART =====================
   let pieSeriesData = [{
@@ -47,24 +31,11 @@ $(function() {
     pieSeriesData[0].data.push( { "name": obj.breakdown, "y": parseInt(obj.percentage) } );
   }
     
-  Highcharts.chart('chart-demographics-disability-percentage', {
-      chart: {
-          type: 'pie'
-      },
+  Highcharts.chart('chart-demographics-disability-percentage', Highcharts.merge(pieChartSettings, {
       title: {
           text: description + " (Percentage)"
       },
-      plotOptions: {
-          pie: {
-              allowPointSelect: true,
-              cursor: 'pointer',
-              dataLabels: {
-                  enabled: false
-              },
-              showInLegend: true
-          }
-      },
       series: pieSeriesData
-  });
+  }));
   
 });

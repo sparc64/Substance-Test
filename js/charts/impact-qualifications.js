@@ -12,24 +12,5 @@ $(function() {
     seriesData[0].data.push( [obj.breakdown, +obj.value] );
   }
 
-  Highcharts.chart('chart-impact-qualifications', {
-    chart: {
-      type: 'bar'
-    },
-    title: null,
-    xAxis: {
-      type: 'category'
-    },
-    legend: {
-      enabled: false
-    },
-    plotOptions: {
-      bar: {
-        dataLabels: {
-          enabled: true
-        }
-      }
-    },
-    series: seriesData
-  });
+  Highcharts.chart('chart-impact-qualifications', Highcharts.merge( barChartSettings, { series: seriesData } ));
 });

@@ -29,7 +29,7 @@
 		
 		<div class="row mt-3">
 			<div class="col">
-				<h2>Attendance and Delivery</h2>
+				<h2 class="font-weight-bold">Attendance and Delivery</h2>
 			</div>
 		</div>
 		
@@ -88,7 +88,7 @@
     
 		<div class="row mt-5">
 			<div class="col">
-				<h2>Demographics</h2>
+				<h2 class="font-weight-bold">Demographics</h2>
 			</div>
 		</div>
 
@@ -157,7 +157,7 @@
 
 				<div class="row mt-5">
 					<div class="col">
-						<h4>Demographic - Other</h4>
+						<h4 class="font-weight-bold">Demographic - Other</h4>
 					</div>
 				</div>
 				
@@ -277,7 +277,7 @@
 		
 		<div class="row mt-5">
 			<div class="col">
-				<h2>Impact</h2>
+				<h2 class="font-weight-bold">Impact</h2>
 			</div>
 		</div>
 		
