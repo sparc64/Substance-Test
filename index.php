@@ -13,290 +13,323 @@
 </head>
 <body>
   
-  <div class="container mt-5">
-    
+  <div class="container mt-4 mb-5">
+		    
 		<div class="row">
 			<div class="col">
-				<h1 class="font-weight-bold float-left">Basic Participants</h1>
+				<div class="jumbotron">
+					<div class="container">
+						<h1 class="display-4">Basic Participants Chart View</h1>
+						<hr class="my-4">
+						<p class="lead">Statistics Summary Charts Based on Participants.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		
-		<div class="row">
+		<div class="row mt-3">
 			<div class="col">
 				<h2>Attendance and Delivery</h2>
 			</div>
 		</div>
-    
-		<div class="row">
-			<div class="col">
-        <h3>Attendance</h3>
-			</div>
-		</div>
 		
-		<div class="row">
+		<div class="row pl-4">
 			<div class="col">
-				<div id="chart-attendance-participants"></div>
-			</div>
-			<div class="col">
-				<div id="chart-attendance-percentage"></div>
-			</div>
-		</div>
-		
-  	<div class="row">
-			<div class="col">
-				<div id="chart-attendance-sessions"></div>
-			</div>
-			<div class="col">
-				<div id="chart-attendance-hours"></div>
-			</div>
-			<div class="col">
-				<div id="chart-attendance-hours-average"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h3>Delivery</h3>
-			</div>
-		</div>
-		
-  	<div class="row">
-			<div class="col">
-				<div id="chart-delivery-groups"></div>
-			</div>
-			<div class="col">
-				<div id="chart-delivery-sessions"></div>
-			</div>
-			<div class="col">
-				<div id="chart-delivery-hours"></div>
-			</div>
-		</div>
+				
+				<div class="row mt-4 py-4 bg-faded">
+					<div class="col">
+						<h4>Attendance</h4>
 
-		<div class="row">
+						<div class="row my-5">
+							<div class="col">
+								<div id="chart-attendance-participants"></div>
+							</div>
+							<div class="col">
+								<div id="chart-attendance-percentage"></div>
+							</div>
+						</div>
+
+						<div class="row my-5">
+							<div class="col">
+								<div id="chart-attendance-sessions"></div>
+							</div>
+							<div class="col">
+								<div id="chart-attendance-hours"></div>
+							</div>
+							<div class="col">
+								<div id="chart-attendance-hours-average"></div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="row mt-4 py-4 bg-faded">
+					<div class="col">
+						<h4>Delivery</h4>
+
+						<div class="row my-5">
+							<div class="col">
+								<div id="chart-delivery-groups"></div>
+							</div>
+							<div class="col">
+								<div id="chart-delivery-sessions"></div>
+							</div>
+							<div class="col">
+								<div id="chart-delivery-hours"></div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+    
+		<div class="row mt-5">
 			<div class="col">
 				<h2>Demographics</h2>
 			</div>
 		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h3>Demographic - Gender</h3>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-demographics-gender"></div>
-			</div>
-			<div class="col">
-				<div id="chart-demographics-gender-percentage"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h3>Demographic - Religion</h3>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-demographics-religion"></div>
-			</div>
-			<div class="col">
-				<div id="chart-demographics-religion-percentage"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h3>Demographic - Ethnicity</h3>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-demographics-ethnicity"></div>
-			</div>
-			<div class="col">
-				<div id="chart-demographics-ethnicity-percentage"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h3>Demographic - Age</h3>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-demographics-age"></div>
-			</div>
-			<div class="col">
-				<div id="chart-demographics-age-percentage"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h3>Demographic - Other</h3>
-			</div>
-		</div>
 
-		<div class="row">
+		<div class="row pl-4">
 			<div class="col">
-				<h4>Disability</h4>
+				
+				<div class="row mt-4 py-4 bg-faded">
+					<div class="col">
+						<h4>Demographic - Gender</h4>
+						
+						<div class="row">
+							<div class="col">
+								<div id="chart-demographics-gender"></div>
+							</div>
+							<div class="col">
+								<div id="chart-demographics-gender-percentage"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mt-4 py-4 bg-faded">
+					<div class="col">
+						<h4>Demographic - Religion</h4>
+
+						<div class="row">
+							<div class="col">
+								<div id="chart-demographics-religion"></div>
+							</div>
+							<div class="col">
+								<div id="chart-demographics-religion-percentage"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mt-4 py-4 bg-faded">
+					<div class="col">
+						<h4>Demographic - Ethnicity</h4>
+
+						<div class="row">
+							<div class="col">
+								<div id="chart-demographics-ethnicity"></div>
+							</div>
+							<div class="col">
+								<div id="chart-demographics-ethnicity-percentage"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mt-4 py-4 bg-faded">
+					<div class="col">
+						<h4>Demographic - Age</h4>
+						
+						<div class="row">
+							<div class="col">
+								<div id="chart-demographics-age"></div>
+							</div>
+							<div class="col">
+								<div id="chart-demographics-age-percentage"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col">
+						<h4>Demographic - Other</h4>
+					</div>
+				</div>
+				
+				<div class="row pl-4">
+					<div class="col">
+
+						<div class="row mt-4 py-4 bg-faded">
+							<div class="col">
+								<h5>Disability</h5>
+
+								<div class="row">
+									<div class="col">
+										<div id="chart-demographics-disability"></div>
+									</div>
+									<div class="col">
+										<div id="chart-demographics-disability-percentage"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mt-4 py-4 bg-faded">
+							<div class="col">
+								<h5>Education, training, employment status</h5>
+
+								<div class="row">
+									<div class="col">
+										<div id="chart-demographics-education"></div>
+									</div>
+									<div class="col">
+										<div id="chart-demographics-education-percentage"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mt-4 py-4 bg-faded">
+							<div class="col">
+								<h5>Has this person been referred to you as part of the MOPAC funded sessions?</h5>
+
+								<div class="row">
+									<div class="col">
+										<div id="chart-demographics-mopac"></div>
+									</div>
+									<div class="col">
+										<div id="chart-demographics-mopac-percentage"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mt-4 py-4 bg-faded">
+							<div class="col">
+								<h5>If yes, where have they been referred from?</h5>
+
+								<div class="row">
+									<div class="col">
+										<div id="chart-demographics-mopac-from"></div>
+									</div>
+									<div class="col">
+										<div id="chart-demographics-mopac-from-percentage"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mt-4 py-4 bg-faded">
+							<div class="col">
+								<h5>Photo/Filming Consent</h5>
+
+								<div class="row">
+									<div class="col">
+										<div id="chart-demographics-photo"></div>
+									</div>
+									<div class="col">
+										<div id="chart-demographics-photo-percentage"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mt-4 py-4 bg-faded">
+							<div class="col">
+								<h5>Referral Agency</h5>
+
+								<div class="row">
+									<div class="col">
+										<div id="chart-demographics-agency"></div>
+									</div>
+									<div class="col">
+										<div id="chart-demographics-agency-percentage"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mt-4 py-4 bg-faded">
+							<div class="col">
+								<h5>Year Group/Age Category</h5>
+
+								<div class="row">
+									<div class="col">
+										<div id="chart-demographics-agegroup"></div>
+									</div>
+									<div class="col">
+										<div id="chart-demographics-agegroup-percentage"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+								
+					</div>
+				</div>	
+					
 			</div>
 		</div>
 		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-demographics-disability"></div>
-			</div>
-			<div class="col">
-				<div id="chart-demographics-disability-percentage"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h4>Education, training, employment status</h4>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-demographics-education"></div>
-			</div>
-			<div class="col">
-				<div id="chart-demographics-education-percentage"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h4>Has this person been referred to you as part of the MOPAC funded sessions?</h4>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-demographics-mopac"></div>
-			</div>
-			<div class="col">
-				<div id="chart-demographics-mopac-percentage"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h4>If yes, where have they been referred from?</h4>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-demographics-mopac-from"></div>
-			</div>
-			<div class="col">
-				<div id="chart-demographics-mopac-from-percentage"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h4>Photo/Filming Consent</h4>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-demographics-photo"></div>
-			</div>
-			<div class="col">
-				<div id="chart-demographics-photo-percentage"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h4>Referral Agency</h4>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-demographics-agency"></div>
-			</div>
-			<div class="col">
-				<div id="chart-demographics-agency-percentage"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h4>Year Group/Age Category</h4>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-demographics-agegroup"></div>
-			</div>
-			<div class="col">
-				<div id="chart-demographics-agegroup-percentage"></div>
-			</div>
-		</div>
-		
-		<div class="row">
+		<div class="row mt-5">
 			<div class="col">
 				<h2>Impact</h2>
 			</div>
 		</div>
 		
-		<div class="row">
+		<div class="row pl-4">
 			<div class="col">
-				<h3>Engagement and Progression</h3>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-impact-engagement"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h3>Outcomes</h3>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<div id="chart-impact-outcomes"></div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col">
-				<h3>Qualifications</h3>
-			</div>
-		</div>
-		
- 		<div class="row">
-			<div class="col">
-				<div id="chart-impact-qualifications"></div>
+				
+				<div class="row mt-4 py-4 bg-faded">
+					<div class="col">
+						<h4>Engagement and Progression</h4>
+
+						<div class="row">
+							<div class="col">
+								<div id="chart-impact-engagement"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row mt-4 py-4 bg-faded">
+					<div class="col">
+						<h4>Outcomes</h4>
+
+						<div class="row">
+							<div class="col">
+								<div id="chart-impact-outcomes"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mt-4 py-4 bg-faded">
+					<div class="col">
+						<h4>Qualifications</h4>
+
+						<div class="row">
+							<div class="col">
+								<div id="chart-impact-qualifications"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 		
 	</div>
 	
-	
  
   <?php include "php/load-data.php"; ?>
   <?php include "php/inject-data.php"; ?>
+	
 	
 	<script src="js/parse-data.js"></script>
 	
@@ -339,5 +372,6 @@
 	<script src="js/charts/impact-engagement.js"></script>
 	<script src="js/charts/impact-outcomes.js"></script>
 	<script src="js/charts/impact-qualifications.js"></script>
+	
 </body>
 </html>
