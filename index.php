@@ -6,6 +6,8 @@
 
 	<title>Basic Participants Charts</title>
 
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha256-rr9hHBQ43H7HSOmmNkxzQGazS/Khx+L8ZRHteEY1tQ4=" crossorigin="anonymous" />
 	<link rel="stylesheet" href="css/charts.css">
 </head>
@@ -299,12 +301,11 @@
 	<script src="js/parse-data.js"></script>
 	
 	<!-- 	
-	Using CDNJS for speed and built-in Subresource Integrity (SRI)
+	Using CDNJS for consistency and built-in Subresource Integrity (SRI)
 	https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
 	https://www.w3.org/TR/SRI/
 	 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha256-gL1ibrbVcRIHKlCO5OXOPC/lZz/gpdApgQAzskqqXp8=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha256-+kIbbrvS+0dNOjhmQJzmwe/RILR/8lb/+4+PUNVW09k=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/5.0.12/highcharts.js" integrity="sha256-zXVQoymYrmnVtdQCloLcwiI2rnLzkVk4C3UPUoFPC7M=" crossorigin="anonymous"></script>
@@ -323,10 +324,6 @@
 	<script src="js/charts/delivery-sessions.js"></script>
 	<script src="js/charts/delivery-hours.js"></script>
 
-	<script src="js/charts/impact-engagement.js"></script>
-	<script src="js/charts/impact-outcomes.js"></script>
-	<script src="js/charts/impact-qualifications.js"></script>
-	
 	<script src="js/charts/demographics-gender.js"></script>
 	<script src="js/charts/demographics-religion.js"></script>
 	<script src="js/charts/demographics-ethnicity.js"></script>
@@ -339,5 +336,8 @@
 	<script src="js/charts/demographics-agency.js"></script>
 	<script src="js/charts/demographics-agegroup.js"></script>
 
+	<script src="js/charts/impact-engagement.js"></script>
+	<script src="js/charts/impact-outcomes.js"></script>
+	<script src="js/charts/impact-qualifications.js"></script>
 </body>
 </html>
