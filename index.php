@@ -204,6 +204,51 @@
 		
 		<div class="row">
 			<div class="col">
+				<h4>Photo/Filming Consent</h4>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-demographics-photo"></div>
+			</div>
+			<div class="col">
+				<div id="chart-demographics-photo-percentage"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h4>Referral Agency</h4>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-demographics-agency"></div>
+			</div>
+			<div class="col">
+				<div id="chart-demographics-agency-percentage"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
+				<h4>Year Group/Age Category</h4>
+			</div>
+		</div>
+		
+ 		<div class="row">
+			<div class="col">
+				<div id="chart-demographics-agegroup"></div>
+			</div>
+			<div class="col">
+				<div id="chart-demographics-agegroup-percentage"></div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col">
 				<h2>Impact</h2>
 			</div>
 		</div>
@@ -290,12 +335,9 @@
 	<script src="js/charts/demographics-education.js"></script>
 	<script src="js/charts/demographics-mopac.js"></script>
 	<script src="js/charts/demographics-mopac-from.js"></script>
-
-
-
-
-
-
+	<script src="js/charts/demographics-photo.js"></script>
+	<script src="js/charts/demographics-agency.js"></script>
+	<script src="js/charts/demographics-agegroup.js"></script>
 
 </body>
 </html>
