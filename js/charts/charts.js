@@ -59,6 +59,9 @@ const pieChartSettings = {
 //       title: {
 //           text: description + " (Percentage)"
 //       },
+      tooltip: {
+          pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+      },
       plotOptions: {
           pie: {
               allowPointSelect: true,
